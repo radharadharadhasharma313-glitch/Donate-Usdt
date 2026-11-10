@@ -1,0 +1,21 @@
+{
+  "action": "Deposit USDT",
+  "token": "USDT",
+  "network": {
+    "code": "BSC",
+    "name": "BNB Smart Chain",
+    "standard": "BEP20",
+    "contract_information": "***97955"
+  },
+  "deposit_address": "0x5ccf2f0a3912860191eb1876e5bb497aeb1d0ea8",
+  "destination_wallet": "Spot Wallet",
+  "minimum_deposit": ">0.01 USDT",
+  "confirmations": {
+    "credited_trading_enabled": 1,
+    "unlocked_withdrawal_enabled": 1
+  },
+  "warnings": [
+    "Do not transact with Sanctioned Entities.",
+    "Don't send NFTs to this address."
+  ]
+}
