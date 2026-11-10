@@ -1,20 +1,19 @@
 {
-  "action": "Deposit USDT",
-  "token": "USDT",
+  "action": "Deposit LTC",
+  "token": "LTC",
   "network": {
-    "code": "BSC",
-    "name": "BNB Smart Chain",
-    "standard": "BEP20",
-    "contract_information": "***97955"
+    "code": "LTC",
+    "name": "Litecoin"
   },
-  "deposit_address": "0x5ccf2f0a3912860191eb1876e5bb497aeb1d0ea8",
+  "deposit_address": "LLjbQhiiNi9a1oN1svbQBtJgCvRSEF4Tjm",
   "destination_wallet": "Spot Wallet",
-  "minimum_deposit": ">0.01 USDT",
+  "minimum_deposit": ">0.001 LTC",
   "confirmations": {
-    "credited_trading_enabled": 1,
-    "unlocked_withdrawal_enabled": 1
+    "credited_trading_enabled": 3,
+    "unlocked_withdrawal_enabled": 15
   },
   "warnings": [
+    "Please note that confidential deposits via the MWEB function are not supported and will result in deposits being lost.",
     "Do not transact with Sanctioned Entities.",
     "Don't send NFTs to this address."
   ]
